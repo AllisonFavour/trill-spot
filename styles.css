@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: hsl(0, 0, 0); */
+    background-color: black;
+}
+
+.main-container {
+    display: grid;
+    place-items: center;
+    padding-block: 100px;
+}
+
+.main-container > h1 {
+    /* color: hsl(255, 100%, 100); */
+    color: white;
+}
+
+.quote-box {
+    height: 100px;
+    max-width: 300px;
+    padding: 10px;
+    margin: 10px;
+    margin-block-start: 60px;
+    color: white;
+}
